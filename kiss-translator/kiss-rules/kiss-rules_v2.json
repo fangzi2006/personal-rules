@@ -1,0 +1,8 @@
+[
+  {
+    "pattern": "github.com",
+    "selector": "h1, h2, h3, h4, h5, h6, .markdown-body li:not(:has(input[type=\"checkbox\"])), [class*=\"task-list-html\"], p, dd, blockquote, figcaption, label, legend, .user-profile-bio>div, [data-testid=\"results-list\"] .search-match, .Subhead-description, [class^=\"prc-SelectPanel-Subtitle-\"], [class^=\"prc-ActionList-ItemLabel-\"], [role=\"dialog\"] .overflow-auto, .h4, .repos-list-description, .discussion-title, [class*=\"PinnedIssue-module__Link\"] span, .js-wiki-sidebar-page-container :is(.Truncate-text, .Link--primary), .markdown-body td:not(:first-child), [class^=\"col-8 mx-auto\"], [data-testid=\"latest-commit-html\"], .react-directory-row-commit-cell a, [class^=\"ActionListItem-label\"]",
+    "autoScan": "false",
+    "ignoreSelector": "p.pinned-item-desc+p, [id^=\"DndDescribedBy-\"], [id^=\"DndLiveRegion-\"], .react-directory-filename-cell"
+  }
+]
